@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/luvback2"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/my"
+        android:layout_width="266dp"
+        android:layout_height="86dp"
+        android:ems="10"
+        android:hint="Write your name here"
+        android:inputType="text"
+        android:textColor="#EB0909"
+        android:textColorHint="#FFFCFC"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.182" />
+
+    <EditText
+        android:id="@+id/his"
+        android:layout_width="270dp"
+        android:layout_height="81dp"
+        android:ems="10"
+        android:hint="Write HIS/HER  name here"
+        android:inputType="text"
+        android:textColor="#FF065B"
+        android:textColorHint="#F6F1F1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="134dp"
+        android:layout_height="58dp"
+        android:text="Calculate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="358dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginEnd="179dp"
+        android:text="Let's Check what is your love match percentage(%)"
+        android:textColor="#FF9800"
+        android:textColorHighlight="#FFEB3B"
+        android:textColorHint="#FFC107"
+        android:textColorLink="#A41010"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="123dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="660dp"
+        android:backgroundTint="#B62A2A"
+        android:text="feedback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
